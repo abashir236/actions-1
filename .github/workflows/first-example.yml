@@ -11,6 +11,9 @@ jobs:
 
         - name: List files
           run: ls
+          
+        - name: checkout
+          run: actions/checkout@v4
 
         - name: Read files
           run: cat README.md
